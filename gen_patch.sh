@@ -3,6 +3,7 @@
 if [ $# -ne 1 -o "$1" = "-h" ]; then
     echo "Usage: $0 <OUTPUT>"
     echo "<OUTPUT>: patch file like <OUTPUT>-patch20130607.tar.gz will be generated"
+    echo "Attention: a manifest file named 'PATCH_MANIFEST' is needed under current directory"
     exit 1
 fi
 
